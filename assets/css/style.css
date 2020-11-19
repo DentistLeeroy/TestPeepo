@@ -1,0 +1,32 @@
+.grid{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 5fr;
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+.a{
+ background-color: yellow;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+}
+
+.b{
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.c{
+    background-color: blue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
